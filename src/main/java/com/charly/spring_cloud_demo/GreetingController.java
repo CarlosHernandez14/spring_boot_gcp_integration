@@ -12,7 +12,7 @@ public class GreetingController {
 
     @GetMapping
     public Mono<String> greeting() {
-        return Mono.just("Hello, World!");
+        return Mono.just("Hola mundo desde spring boot parte 2!");
     }
 
 }
